@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHero } from "@/components/PageHero";
 import { faqs } from "@/data/content";
@@ -31,7 +30,7 @@ export default function FAQsPage() {
         ))}
       </section>
       <p className="text-sm text-zinc-300">
-        Need a quick answer? <Link href={whatsappLink()} className="text-emerald-400">Message us on WhatsApp</Link>.
+        Need a quick answer? <a href={whatsappLink()} className="text-emerald-400">Message us on WhatsApp</a>.
       </p>
     </div>
   );

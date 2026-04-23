@@ -41,7 +41,6 @@ const barbershopSchema = {
   "@context": "https://schema.org",
   "@type": "Barbershop",
   name: siteConfig.name,
-  image: `${siteConfig.domain}/gallery/fade-style.svg`,
   telephone: siteConfig.phoneDisplay,
   address: {
     "@type": "PostalAddress",
