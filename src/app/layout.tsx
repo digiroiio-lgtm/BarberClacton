@@ -3,7 +3,7 @@ import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
-import { FloatingWhatsApp, MobileStickyBar } from "@/components/StickyActions";
+import { StickyBottomBar } from "@/components/StickyActions";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -87,8 +87,7 @@ export default function RootLayout({
         <Header />
         <main className="mx-auto max-w-6xl px-4 pb-28 pt-8 lg:px-6">{children}</main>
         <Footer />
-        <FloatingWhatsApp />
-        <MobileStickyBar />
+        <StickyBottomBar />
       </body>
     </html>
   );
