@@ -3,7 +3,7 @@ import { whatsappLink } from "@/lib/whatsapp";
 
 export function StickyBottomBar() {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-zinc-800 bg-zinc-950/95 backdrop-blur">
+    <nav aria-label="Quick actions" className="fixed inset-x-0 bottom-0 z-50 border-t border-zinc-800 bg-zinc-950/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl gap-2 p-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))]">
         <a
           href={whatsappLink(siteConfig.whatsappTemplates.availability)}
@@ -25,6 +25,6 @@ export function StickyBottomBar() {
           Get Directions
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
