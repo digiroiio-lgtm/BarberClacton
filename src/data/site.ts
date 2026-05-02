@@ -3,7 +3,7 @@ export const siteConfig = {
   domain: "https://turkishbarberclacton.com",
   phoneDisplay: "01255 000000",
   phoneHref: "+441255000000",
-  whatsappNumber: "447000000000",
+  whatsappNumber: "447341912796",
   email: "hello@turkishbarberclacton.com",
   address: {
     line1: "123 Station Road",
