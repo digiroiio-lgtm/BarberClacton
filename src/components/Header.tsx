@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { navigation, siteConfig } from "@/data/site";
 import { whatsappLink } from "@/lib/whatsapp";
@@ -8,8 +9,8 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-zinc-800/80 bg-zinc-950/95 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 lg:px-6">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-sm font-bold tracking-wide text-white sm:text-base">
-            Turkish Barber Clacton
+          <Link href="/" className="flex items-center gap-2">
+            <Image src="/logo.svg" alt="Turkish Barber Clacton logo" width={160} height={38} priority />
           </Link>
           <div className="hidden items-center gap-3 md:flex">
             <a href={`tel:${siteConfig.phoneHref}`} className="text-sm text-zinc-300 hover:text-white">

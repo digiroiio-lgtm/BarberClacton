@@ -10,7 +10,6 @@ const gallery = [
   { src: "/gallery/classic-cut.svg", alt: "Classic men's haircut with neat finish", tag: "Haircut" },
   { src: "/gallery/hot-towel.svg", alt: "Hot towel shave preparation in modern barbershop", tag: "Shave" },
   { src: "/gallery/kids-cut.svg", alt: "Kids haircut with clean sides and natural top", tag: "Kids" },
-  { src: "/gallery/shop-interior.svg", alt: "Clean and modern Turkish barber shop interior in Clacton", tag: "Shop" },
 ];
 
 export const metadata = buildMetadata({

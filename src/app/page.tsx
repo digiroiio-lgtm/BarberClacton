@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { buildMetadata, faqSchema } from "@/lib/seo";
 import { whatsappLink } from "@/lib/whatsapp";
@@ -30,6 +31,17 @@ export default function Home() {
         secondaryHref={`tel:${siteConfig.phoneHref}`}
         secondaryLabel="Call Now"
       />
+
+      <div className="overflow-hidden rounded-2xl border border-zinc-800">
+        <Image
+          src="/gallery/shop-interior.svg"
+          alt="Clean and modern Turkish barber shop interior in Clacton-on-Sea"
+          width={1200}
+          height={500}
+          className="h-64 w-full object-cover sm:h-80"
+          priority
+        />
+      </div>
 
       <section className="grid gap-3 rounded-2xl border border-zinc-800 bg-zinc-900 p-5 text-sm text-zinc-200 sm:grid-cols-5">
         {[
