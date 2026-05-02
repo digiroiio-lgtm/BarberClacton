@@ -6,10 +6,10 @@ export const siteConfig = {
   whatsappNumber: "447341912796",
   email: "hello@turkishbarberclacton.com",
   address: {
-    line1: "123 Station Road",
+    line1: "58B Rosemary Rd",
     town: "Clacton-on-Sea",
     county: "Essex",
-    postcode: "CO15 1XX",
+    postcode: "CO15 1TE",
     country: "United Kingdom",
   },
   openingHours: [
@@ -18,9 +18,9 @@ export const siteConfig = {
     "Sun: 10:00-16:00",
   ],
   mapEmbedUrl:
-    "https://www.google.com/maps?q=Clacton-on-Sea+CO15+1XX&output=embed",
+    "https://www.google.com/maps?q=58B+Rosemary+Rd+Clacton-on-Sea+CO15+1TE&output=embed",
   mapDirectionsUrl:
-    "https://www.google.com/maps/search/?api=1&query=123+Station+Road+Clacton-on-Sea+CO15+1XX",
+    "https://share.google/k5vsRf38Ca8P6Eo5T",
   landmarks: ["Clacton Pier", "Clacton Railway Station", "Rosemary Road"],
   defaultWhatsAppMessage:
     "Hi, I'd like to book an appointment at Turkish Barber Clacton.",

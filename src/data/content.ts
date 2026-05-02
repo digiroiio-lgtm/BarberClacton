@@ -153,7 +153,7 @@ export const faqs = [
   },
   {
     q: "Where are you located in Clacton-on-Sea?",
-    a: "We're on Station Road, close to Clacton Pier and easy to reach by car or train.",
+    a: "We're on Rosemary Road, close to Clacton Pier and easy to reach by car or train.",
   },
 ];
 
@@ -189,7 +189,7 @@ export const areas: Area[] = [
     intro:
       "Local clients choose us for reliable fades, clean beard trims, and a premium Turkish barber feel right in town.",
     travel:
-      "Easy walk from the town centre and quick access from Station Road.",
+      "Easy walk from the town centre and quick access from Rosemary Road.",
   },
   {
     slug: "holland-on-sea",
